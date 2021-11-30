@@ -22,11 +22,12 @@
             </intent-filter>
         </activity>
         <activity android:name="com.group5.techtut.HomeActivity">
-
         </activity>
-        <activity android:name="com.group5.techtut.AboutActivity">
-
-        </activity>
+        <activity android:name="com.group5.techtut.AboutActivity" />
+        <activity android:name="com.group5.techtut.ManualActivity" />
+        <activity android:name="com.group5.techtut.TutorialActivity1" />
+        <activity android:name="com.group5.techtut.TutorialActivity2" />
+        <activity android:name="com.group5.techtut.TutorialActivity3" />
     </application>
 
 </manifest>

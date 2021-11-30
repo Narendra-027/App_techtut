@@ -5,4 +5,5 @@
     <string name="about_icon">about_icon</string>
     <string name="notification">Notification</string>
     <string name="tutorials">Tutorials</string>
+    <string name="Manual">manual</string>
 </resources>

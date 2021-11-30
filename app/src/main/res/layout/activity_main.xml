@@ -11,8 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/button"
         android:layout_marginTop="473dp"
+        android:background="@drawable/button"
         android:text="Start"
         tools:ignore="HardcodedText" />
 

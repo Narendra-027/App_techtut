@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <androidx.constraintlayout.utils.widget.MotionLabel
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Tasks"
+        android:textSize="40dp">
+    </androidx.constraintlayout.utils.widget.MotionLabel>
+    <TextView
+        android:id="@+id/task1"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="Enlarge the Keyboard Buttons"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="@drawable/border">
+    </TextView>
+    <TextView
+        android:id="@+id/task2"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="Increase Text Size Across the System"
+        android:background="@drawable/border">
+    </TextView>
+    <TextView
+        android:id="@+id/task3"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="Uninstall or Disable Unwanted Apps"
+        android:background="@drawable/border">
+    </TextView>
+    <TextView
+        android:id="@+id/task4"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="Turn Off Gesture Navigation"
+        android:background="@drawable/border">
+    </TextView>
+    <TextView
+        android:id="@+id/task5"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="Setting up Biometrics"
+        android:background="@drawable/border">
+    </TextView>
+    <TextView
+        android:id="@+id/task6"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="Creating a PDF"
+        android:background="@drawable/border">
+    </TextView>
+    <TextView
+        android:id="@+id/task7"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="Changing Ringtone"
+        android:background="@drawable/border">
+    </TextView>
+    <TextView
+        android:id="@+id/task8"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="Changing Wallpapers"
+        android:background="@drawable/border">
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/prevBtn"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:text="Previous"
+            android:background="@drawable/button"
+            android:layout_gravity="center_horizontal|left"
+            />
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:text="Next"
+            android:background="@drawable/button"
+            android:layout_gravity="center_horizontal|right"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
